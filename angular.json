@@ -115,6 +115,10 @@
             "scripts": []
           }
         }
+      },
+      
+      "i18n": {
+        "sourceLocale": "pt"
       }
     }
   },
