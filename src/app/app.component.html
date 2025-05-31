@@ -3,4 +3,6 @@
         <app-banner [saldo]="saldo()"></app-banner>
         <app-form-nova-transacao (transacaoCriada)="precessarTransacao($event)"></app-form-nova-transacao>
     </div>
+
+    <app-extrato class="extrato" [transacoes]="transacoes()"></app-extrato>
 </div>
